@@ -1,6 +1,23 @@
 Package: jmxremote
 Priority: optional
 Section: utils
+Installed-Size: 5548
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.10.3
+Depends: libc6, libstdc++6
+Filename: pool/main/j/jmxremote/jmxremote_26.10.3_amd64.deb
+Size: 1894248
+MD5sum: ecd6db5b88c9ce3c478231356f97fda0
+SHA1: 8a470ed942761eba2122a3ae50089a438dbd3c77
+SHA256: 2ee7de781748b34da57a13914323751ab503c2319612c584b1c201a7d332b8d4
+SHA512: cf2c382e4405857773dc78df591030b28078ad317824a582592b19aed385e0a006f9636c9c9ffdcb8217f970bfd798da3dfd4b2ba42b136d82eaa48f8959757f
+Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxremote
+Priority: optional
+Section: utils
 Installed-Size: 5480
 Maintainer: Sayeedur Rahman (yetanothernaveed)
 Architecture: amd64
