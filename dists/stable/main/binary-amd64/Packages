@@ -1,6 +1,23 @@
 Package: jmxremote
 Priority: optional
 Section: utils
+Installed-Size: 5566
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.11.4
+Depends: libc6, libstdc++6
+Filename: pool/main/j/jmxremote/jmxremote_26.11.4_amd64.deb
+Size: 1901796
+MD5sum: 827aac316344550f7817a4dff83aa88b
+SHA1: 5a94caee3867a9a52990d77b42f7ea633f7dda9f
+SHA256: 0ecd2bb521dec40f5a8c7193a2fca47c6c1643aa793857dfca955d00465370b9
+SHA512: a96f4ac1a6352152ca83ddaf98366eb6d56ba2def8411021f041054ac7d4adea8c527a0a849871845b8a612967b31a81469d83b4e9d3c2c446525bf7b36c9d1d
+Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxremote
+Priority: optional
+Section: utils
 Installed-Size: 5548
 Maintainer: Sayeedur Rahman (yetanothernaveed)
 Architecture: amd64
@@ -30,5 +47,22 @@ SHA1: 4cfb118edf49baa1daa13b0fedc0ad68f13a7b70
 SHA256: 3b869cf199861896482143d1cd0fd46d3d7c60284b41aad31c7cbf413cffc9b5
 SHA512: 92d62a09b291885670b450f63670b819cf8142ade54cb9f05691fd58f800b84c4ff0c200fb4791ac1364191a32c7fc70a344945a7e9986aa930dfc688dbe1ae9
 Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxsetup
+Priority: optional
+Section: admin
+Installed-Size: 32702
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.11.4
+Depends: adduser, apt, bash, ca-certificates, coreutils, curl, debianutils, dpkg, findutils, gawk, gnupg, grep, passwd, psmisc, sed, systemd, util-linux
+Filename: pool/main/j/jmxsetup/jmxsetup_26.11.4_amd64.deb
+Size: 33441492
+MD5sum: d91c37ac927e4b5611774024088ead12
+SHA1: 5c557433d9bdd66c4a6346dde0006bfd1120fa1b
+SHA256: 9ce5c180cbf1fed05a1d90e06214caa885af481f450738e8726fdc0f799ff8ba
+SHA512: 0d46a7e7987db11ff68be22c692d0d9d555a39ccde11b0855bcdad89699494517a7690c7dfbe2ba2c7d394847fcb152d21872e0b520e72d79aa43b02d104093a
+Description: JMX kiosk provisioning, update timer, and jmxd configuration CLI
 Homepage: https://github.com/yetanothernaveed/JMX-APT
 
