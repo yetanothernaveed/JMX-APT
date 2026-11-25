@@ -4,6 +4,23 @@ Section: utils
 Installed-Size: 5566
 Maintainer: Sayeedur Rahman (yetanothernaveed)
 Architecture: amd64
+Version: 26.11.5
+Depends: libc6, libstdc++6
+Filename: pool/main/j/jmxremote/jmxremote_26.11.5_amd64.deb
+Size: 1901800
+MD5sum: 1147806d3e33e6126202b939abeaf471
+SHA1: 9ba390624181a73b3109bdde204d17ecff735f40
+SHA256: e5106a1acbb7737589554ea5d6987c118b9eb7fd02137981a0e560652c04aa2a
+SHA512: 8064a206a01d0d544a519ae42bb06cd20798074839aa304ad8835fc6f3a0a9b81fd05198702b96e673e1b67e48671dc36dab516edd3fb3bf7705242841ff674c
+Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxremote
+Priority: optional
+Section: utils
+Installed-Size: 5566
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
 Version: 26.11.4
 Depends: libc6, libstdc++6
 Filename: pool/main/j/jmxremote/jmxremote_26.11.4_amd64.deb
@@ -47,6 +64,23 @@ SHA1: 4cfb118edf49baa1daa13b0fedc0ad68f13a7b70
 SHA256: 3b869cf199861896482143d1cd0fd46d3d7c60284b41aad31c7cbf413cffc9b5
 SHA512: 92d62a09b291885670b450f63670b819cf8142ade54cb9f05691fd58f800b84c4ff0c200fb4791ac1364191a32c7fc70a344945a7e9986aa930dfc688dbe1ae9
 Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxsetup
+Priority: optional
+Section: admin
+Installed-Size: 32703
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.11.5
+Depends: adduser, apt, bash, ca-certificates, coreutils, curl, debianutils, dpkg, findutils, gawk, gnupg, grep, passwd, psmisc, sed, systemd, util-linux
+Filename: pool/main/j/jmxsetup/jmxsetup_26.11.5_amd64.deb
+Size: 33441430
+MD5sum: bc41726ffb62a4c0b98ec34d7f6253e6
+SHA1: 805c08d7e8ab0735fa1607a55fc95fd7e5ec9245
+SHA256: c6509cc64ab04fd123e4ac1105b0072d0a031c41a41ca1393b7fcb9a25b6f5e9
+SHA512: 6cfd540625da05119166bda72fd5c96a187bd699d5aec946844b8c9a247e801607fbb3fdf1d44e2be3bdb68140d895f5deade4d1cf578aa6985aa895d2eb58b1
+Description: JMX kiosk provisioning, update timer, and jmxd configuration CLI
 Homepage: https://github.com/yetanothernaveed/JMX-APT
 
 Package: jmxsetup
