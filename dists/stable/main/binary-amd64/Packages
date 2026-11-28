@@ -1,6 +1,23 @@
 Package: jmxremote
 Priority: optional
 Section: utils
+Installed-Size: 5584
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.11.6
+Depends: libc6, libstdc++6
+Filename: pool/main/j/jmxremote/jmxremote_26.11.6_amd64.deb
+Size: 1912214
+MD5sum: bc61ab9f8f8644d4f53f82d4349784f8
+SHA1: 58f2c4710f387fe60b354d93012f2407f4d392a7
+SHA256: d78f9b9f4229b7ed1610ceb5c289b9ac4ae9413932ed2f5c8ca4002a08f7c4d8
+SHA512: 93d536d04d53a6b577bec4f3c21c8c4270de5fb12235ace14a0095a003dce8ed13deb250a7309eea09b4bbdac530255ff8c3af991fa2240423d149e6168e55e6
+Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxremote
+Priority: optional
+Section: utils
 Installed-Size: 5566
 Maintainer: Sayeedur Rahman (yetanothernaveed)
 Architecture: amd64
@@ -64,6 +81,23 @@ SHA1: 4cfb118edf49baa1daa13b0fedc0ad68f13a7b70
 SHA256: 3b869cf199861896482143d1cd0fd46d3d7c60284b41aad31c7cbf413cffc9b5
 SHA512: 92d62a09b291885670b450f63670b819cf8142ade54cb9f05691fd58f800b84c4ff0c200fb4791ac1364191a32c7fc70a344945a7e9986aa930dfc688dbe1ae9
 Description: JMX CLI and JMX Daemon package
+Homepage: https://github.com/yetanothernaveed/JMX-APT
+
+Package: jmxsetup
+Priority: optional
+Section: admin
+Installed-Size: 32703
+Maintainer: Sayeedur Rahman (yetanothernaveed)
+Architecture: amd64
+Version: 26.11.6
+Depends: adduser, apt, bash, ca-certificates, coreutils, curl, debianutils, dpkg, findutils, gawk, gnupg, grep, passwd, psmisc, sed, systemd, util-linux
+Filename: pool/main/j/jmxsetup/jmxsetup_26.11.6_amd64.deb
+Size: 33441430
+MD5sum: d63281594d2393db30f07103a3c2adc4
+SHA1: 5b0d9eb0ad871b89d577633cba08b4e4abc26d54
+SHA256: 1789d0d5e6f3056681870ae3cbb4092a10dc07199de5de13a6a5f06dc25648cc
+SHA512: 9c6ea555d4c089d284e0b15b81a67b67ad941fb48572e3889a4b5acb74e7919cffdfc55cb0f58cedb09b563bf85eeee7fe71e963676c8b8a536930f71c660bfd
+Description: JMX kiosk provisioning, update timer, and jmxd configuration CLI
 Homepage: https://github.com/yetanothernaveed/JMX-APT
 
 Package: jmxsetup
